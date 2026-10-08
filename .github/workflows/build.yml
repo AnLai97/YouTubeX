@@ -1,0 +1,39 @@
+name: Build
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    env:
+      THEOS: ${{ github.workspace }}/theos
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install dependencies
+        run: brew install ldid make dpkg xz
+
+      - name: Setup Theos
+        run: |
+          git clone --recursive --depth 1 https://github.com/theos/theos.git "$THEOS"
+          git clone --depth 1 https://github.com/theos/sdks.git sdks-tmp
+          mv sdks-tmp/*.sdk "$THEOS/sdks/"
+          rm -rf sdks-tmp
+          ls "$THEOS/sdks"
+
+      - name: Build package
+        run: |
+          set -o pipefail
+          if ! gmake package FINALPACKAGE=1 2>&1 | tee build.log; then
+            grep -iE "error|fatal|undefined" build.log | head -20 | while IFS= read -r line; do echo "::error::$line"; done
+            exit 1
+          fi
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: YouTubeX
+          path: packages/*.deb

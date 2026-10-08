@@ -1,0 +1,24 @@
+Package: com.anlai.youtubex
+Name: YouTubeX
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: A wide, desktop-style YouTube on CarPlay.
+ Turn YouTube into a big-screen experience in your car. YouTubeX gives YouTube
+ its tablet layout and keeps it in landscape, so browsing, searching and watching
+ on the CarPlay display feels like using YouTube on a laptop.
+ .
+ Features:
+  - Wide multi-column layout with the video and suggestions side by side
+  - Landscape on every screen, not just in full-screen video
+  - Turns on by itself when YouTube opens on the car display
+  - Optional always-on mode for the iPhone screen too
+  - Share and menu sheets that work properly in the wide layout
+ .
+ Set it up in Settings > YouTubeX. Changes apply the next time YouTube opens.
+ .
+ Compatibility: iOS 15 and later, rootless jailbreaks (Dopamine, palera1n).
+Maintainer: AnLai <laihoangan123456@gmail.com>
+Author: AnLai <laihoangan123456@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Icon: file:///var/jb/Library/PreferenceBundles/YouTubeXPrefs.bundle/PackageIcon.png

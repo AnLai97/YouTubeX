@@ -1,0 +1,22 @@
+/* YouTubeX – Tiếng Việt */
+
+"LANGUAGE" = "Ngôn ngữ";
+"HEADER_TAGLINE" = "Giao diện YouTube nằm ngang kiểu máy tính trên màn hình CarPlay.";
+"VERSION_FORMAT" = "Phiên bản: %@";
+"COPYRIGHT" = "Bản quyền © 2026 AnLai";
+"OK" = "OK";
+
+"GENERAL_FOOTER" = "Đóng hẳn YouTube rồi mở lại để áp dụng thay đổi.";
+"ENABLE" = "Bật YouTubeX";
+
+/* TWEAK SETTINGS */
+
+"ACTIVATION_TITLE" = "Áp dụng khi";
+"ACTIVATION_CARPLAY" = "Chỉ trên CarPlay";
+"ACTIVATION_ALWAYS" = "Luôn luôn";
+"ACTIVATION_FOOTER" = "Chỉ trên CarPlay: tự bật khi YouTube mở trên màn hình xe. Luôn luôn: áp dụng cả trên iPhone; chọn mục này nếu trên xe chưa đổi giao diện.";
+
+"LAYOUT_TITLE" = "Giao diện";
+"IPAD_LAYOUT" = "Giao diện iPad";
+"FORCE_LANDSCAPE" = "Luôn xoay ngang";
+"LAYOUT_FOOTER" = "Giao diện iPad xếp video thành nhiều cột, phát video bên trái và gợi ý bên phải, giống YouTube trên máy tính.";

@@ -1,0 +1,22 @@
+/* YouTubeX – English */
+
+"LANGUAGE" = "Language";
+"HEADER_TAGLINE" = "A wide, desktop-style YouTube layout on your CarPlay screen.";
+"VERSION_FORMAT" = "Version: %@";
+"COPYRIGHT" = "Copyright © 2026 AnLai";
+"OK" = "OK";
+
+"GENERAL_FOOTER" = "Fully close YouTube and open it again to apply changes.";
+"ENABLE" = "Enable YouTubeX";
+
+/* TWEAK SETTINGS */
+
+"ACTIVATION_TITLE" = "Apply when";
+"ACTIVATION_CARPLAY" = "Only on CarPlay";
+"ACTIVATION_ALWAYS" = "Always";
+"ACTIVATION_FOOTER" = "Only on CarPlay: turns on when YouTube opens on the car display. Always: also applies on the iPhone; pick this if the layout doesn't change in the car.";
+
+"LAYOUT_TITLE" = "Layout";
+"IPAD_LAYOUT" = "iPad layout";
+"FORCE_LANDSCAPE" = "Always landscape";
+"LAYOUT_FOOTER" = "The iPad layout shows videos in several columns, with the player on the left and suggestions on the right, like YouTube on a computer.";
