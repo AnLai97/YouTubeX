@@ -2,6 +2,8 @@
 
 "LANGUAGE" = "Language";
 "HEADER_TAGLINE" = "A wide, desktop-style YouTube layout on your CarPlay screen.";
+"STATUS_ON" = "On";
+"STATUS_OFF" = "Off";
 "VERSION_FORMAT" = "Version: %@";
 "COPYRIGHT" = "Copyright © 2026 AnLai";
 "OK" = "OK";
